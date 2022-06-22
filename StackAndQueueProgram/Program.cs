@@ -15,6 +15,10 @@ namespace StackAndQueueProgram
             stack.Push(node2);
             stack.Push(node3);
             stack.DisplayStack();
+            Console.WriteLine("Removing the topmost element by peeking : ");
+            stack.Peek();
+            Console.WriteLine("Removing the topmost element by popping : ");
+            stack.Pop();
             
         }
     }

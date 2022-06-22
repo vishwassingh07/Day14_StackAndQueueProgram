@@ -18,5 +18,14 @@ namespace StackAndQueueProgram
         {
             linkedlist.QueueDisplay();
         }
+        public void Top()
+        {
+            var value = linkedlist.Head;
+            Console.WriteLine(value.data);
+        }
+        public void Dequeue()
+        {
+            linkedlist.DeleteNodeAtLast();
+        }
     }
 }

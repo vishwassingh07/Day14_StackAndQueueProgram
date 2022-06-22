@@ -174,6 +174,27 @@ namespace StackAndQueueProgram
                 temp = temp.next;
             }
         }
+        public void QueueDisplay()
+        {
+            Node temp = Head;
+            if (temp == null)
+            {
+                Console.WriteLine("The Linked List is empty ");
+            }
+            else
+            {
+                Console.WriteLine("The Queue : ");
+            }
+            while (temp != null)
+            {
+                Console.WriteLine(temp.data);
+                if (temp.next != null)
+                {
+                    Console.Write("");
+                }
+                temp = temp.next;
+            }
+        }
 
     }
 }
